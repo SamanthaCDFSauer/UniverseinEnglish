@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 128.0rem;
+    height: 12.2rem;
+    padding: 5.0rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+header nav a {
+    font-size: 2.4rem;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+header nav a:hover {
+    font-weight: bold;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: #ffffff;
+}
+
+.home h1 {
+    font-size: 4.8rem;
+    margin: 17.2rem auto 2.4rem auto;
+}
+
+.home button {
+    background: transparent;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    padding: 1.2rem 3.2rem;
+    max-width: 24.0rem;
+    height: 5.0rem;
+}
+
+.home button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #02799D;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#universe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    margin: 6.2rem auto auto 10.2rem;
+}
+
+.theuniverse h1 {
+    font-size: 4.8rem;
+}
+
+.theuniverse p {
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    max-width: 64.8rem;
+    max-height: 20.3rem;
+}
+
+#exploration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    margin: 6.2rem auto auto 10.2rem;
+}
+
+.exploration h1 {
+    font-size: 4.8rem;
+}
+
+.exploration p {
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    max-width: 64.8rem;
+    max-height: 20.3rem;
+}
+
+.icon {
+    width: 5.0rem;
+    height: 4.2rem;
+}
+
+#error {
+    font-size: 1.8rem;
+    color: #E1E1E6;
+    margin: 6.2rem auto auto 10.2rem;
+}
